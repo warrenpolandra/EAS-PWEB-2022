@@ -1,0 +1,3 @@
+CREATE TABLE user (username VARCHAR(20) NOT NULL, password VARCHAR(20) NOT NULL, nik VARCHAR(20) NOT NULL, nama VARCHAR(50) NOT NULL, tempat_lahir VARCHAR(50), tanggal_lahir date, jenis_kelamin VARCHAR(10) NOT NULL, alamat VARCHAR(200), agama VARCHAR(16), pasfoto VARCHAR(128), ktp VARCHAR(128), berkas VARCHAR(128), verifikasi tinyint(1), level int NOT NULL, uid int PRIMARY KEY NOT NULL);
+
+INSERT INTO user(username, password, nik, nama, jenis_kelamin, level) VALUES('ADMIN', 'ADMIN123', '517102928383', 'Hendri', 'Laki-laki', 2);

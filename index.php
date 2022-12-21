@@ -20,7 +20,7 @@
     </header>
 
     <div class="container">
-        <img src="src/image/gedung.jpg">
+    <img src="src/image/gedung.jpg">
         <div class="welcome">
             <h1>SELAMAT DATANG DI
             PORTAL PENDAFTARAN UJIAN CALON PEGAWAI
